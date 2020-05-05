@@ -1,0 +1,91 @@
+body{
+    display:block;
+    margin:8px;
+    
+}
+#button1 {
+    color:white;
+    background-color: rgb(219, 11, 11);
+    padding: 16px 38px;
+    border: none;
+
+}
+#button1:hover {
+    background-color: #ed4d50;
+    
+  }
+#button2 {
+    border:4px solid #6a8ff5;
+    color:blue;
+    background-color: #fdd835;
+    padding: 10px 38px;
+
+}
+#button2:hover {
+   color: #fdd835;
+    background-color:blue;
+    
+  }
+#button3 {
+    border:none;
+    color:white;
+    background-image: linear-gradient(to right , #59d1de , #a7d384);
+    padding: 12px 38px;
+    border-radius: 30px;
+
+}
+#button4 {
+    border:4px solid blue;
+    color:blue;
+    background-color: white;
+    padding: 12px 38px;
+    border-radius: 10px;
+
+}
+#button4:hover {
+    background-color: blue;
+    color:white;
+    
+  }
+#button5 {
+    border:4px solid #f5a332;
+    color:white;
+    background-image:linear-gradient(to top, #f5a332,#fac733);;
+    padding: 15px 38px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px grey;
+
+
+}
+#button5:hover {
+    background-color: #f5a332 ;
+    background-image: none;
+    
+  }
+#button6
+{
+    border-radius: 50px ;
+    background-color:white;
+    color: #38a1f3;
+    border:2px solid #38a1f3;
+    padding: 10px;
+}
+#button6:hover {
+    background-color:#38a1f3;
+    color: white;
+    background-image: none;
+  
+  }
+button {
+    font-family: 'Dosis', sans-serif;
+    margin: 0.8em;
+    font-size: 1.1em;
+    text-align: center;
+    align-items: flex-start;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+   
+}
